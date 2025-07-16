@@ -20,7 +20,7 @@ def assinar_pdf_em_underlines(input_pdf, output_pdf, assinatura_img, pagina_alvo
             x0 = posicao.x0 + ajuste_centralizacao
             y0 = posicao.y0
 
-            offset_vertical = 40
+            offset_vertical = 40 # ajuste da posição vertical da assinatura para que a base dela coincida com a linha
             rect = fitz.Rect(x0, y0 - offset_vertical, x0 +
                              largura_assinatura, y0 - offset_vertical + altura_assinatura)
 
