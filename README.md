@@ -4,7 +4,7 @@ This repository contains simple Python scripts designed to automate common day-t
 
 ---
 
-## PDF Signing Script
+## PDF Signing Script (sign_pdf.py)
 
 **Description:**  
 This script allows you to digitally insert an image of your signature into a PDF file at a specific placeholder (represented by a series of underscores `"______________"`). It automatically detects the placeholder and places your signature image over it.
